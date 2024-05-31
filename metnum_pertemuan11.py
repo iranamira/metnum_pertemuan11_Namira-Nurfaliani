@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Impor data dari file CSV
-file_path = 'Student_Performance.csv'  # ganti dengan path file CSV Anda
+file_path = 'Student_Performance.csv'  
 data = pd.read_csv(file_path)
 
 # Extract relevant columns
